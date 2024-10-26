@@ -1,0 +1,48 @@
+#container{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.rollers{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#inputs{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-top: 1em;
+    text-align: center;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(92, 92, 218);
+    width: 100px;
+    margin-top: 1em;
+    cursor: pointer;
+    
+}
+
+#diceResult{
+    margin: 20px;
+}
+
+#diceImg img{
+    width: 200px;
+    margin : 10px
+}
